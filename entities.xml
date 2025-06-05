@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityModel>
+    <entityType name="Person">
+        <attributes>
+            <attribute name="name" type="String"/>
+            <attribute name="age" type="Integer"/>
+        </attributes>
+    </entityType>
+    <entityType name="Car">
+        <attributes>
+            <attribute name="serie" type="String"/>
+            <attribute name="carwheels" type="Integer"/>
+        </attributes>
+    </entityType>
+</entityModel>
