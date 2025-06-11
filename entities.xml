@@ -5,11 +5,18 @@
             <attribute name="name" type="String"/>
             <attribute name="age" type="Integer"/>
         </attributes>
+        <behaviors>
+            <behavior name="AgeBehavior" statement="[:e |
+    Transcript show: 'Age is equal to: ', (e getAttribute: 'age') printString; cr.
+]"/>
+        </behaviors>
     </entityType>
     <entityType name="Car">
         <attributes>
             <attribute name="serie" type="String"/>
             <attribute name="carwheels" type="Integer"/>
         </attributes>
+        <behaviors>
+        </behaviors>
     </entityType>
 </entityModel>
